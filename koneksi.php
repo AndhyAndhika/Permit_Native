@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "smartsys_permit";
-$password = "Gc27xaM]MSc!56";
-$database = "smartsys_permit";
+$username = "Your_Username";
+$password = "Your_Password";
+$database = "Your_Database";
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $database);
 // // Check connection
@@ -10,4 +10,3 @@ $conn = mysqli_connect($servername, $username, $password, $database);
 //   die("Connection failed: " . $conn->connect_error);
 // }
 // echo "Connected successfully";
-?>
